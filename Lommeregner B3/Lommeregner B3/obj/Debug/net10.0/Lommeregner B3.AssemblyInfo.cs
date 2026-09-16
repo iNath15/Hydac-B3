@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Lommeregner B3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b77d0c6df3ab433467c8c90e34b99d9ab952a9a2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed53275a038238e04d50153d0b9db68b63160feb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Lommeregner B3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Lommeregner B3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

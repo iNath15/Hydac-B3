@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Kswag\\.nuget\\packages\\": {},
+    "C:\\Users\\Nath\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kswag\\Documents\\GitHub\\Team-B3\\Lommeregner B3\\Lommeregner B3\\Lommeregner B3.csproj",
+      "projectUniqueName": "C:\\Users\\Nath\\source\\repos\\Team B3\\Lommeregner B3\\Lommeregner B3\\Lommeregner B3.csproj",
       "projectName": "Lommeregner B3",
-      "projectPath": "C:\\Users\\Kswag\\Documents\\GitHub\\Team-B3\\Lommeregner B3\\Lommeregner B3\\Lommeregner B3.csproj",
-      "packagesPath": "C:\\Users\\Kswag\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kswag\\Documents\\GitHub\\Team-B3\\Lommeregner B3\\Lommeregner B3\\obj\\",
+      "projectPath": "C:\\Users\\Nath\\source\\repos\\Team B3\\Lommeregner B3\\Lommeregner B3\\Lommeregner B3.csproj",
+      "packagesPath": "C:\\Users\\Nath\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nath\\source\\repos\\Team B3\\Lommeregner B3\\Lommeregner B3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kswag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nath\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -74,7 +74,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
