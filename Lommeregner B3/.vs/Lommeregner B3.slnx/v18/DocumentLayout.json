@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kswag\\Documents\\GitHub\\Team-B3\\Lommeregner B3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4D67C3B3-B7ED-4BA1-9998-ED1DF3779B59}|Lommeregner B3\\Lommeregner B3.csproj|c:\\users\\kswag\\documents\\github\\team-b3\\lommeregner b3\\lommeregner b3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D67C3B3-B7ED-4BA1-9998-ED1DF3779B59}|Lommeregner B3\\Lommeregner B3.csproj|solutionrelative:lommeregner b3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Kswag\\Documents\\GitHub\\Team-B3\\Lommeregner B3\\Lommeregner B3\\Program.cs",
+              "RelativeDocumentMoniker": "Lommeregner B3\\Program.cs",
+              "ToolTip": "C:\\Users\\Kswag\\Documents\\GitHub\\Team-B3\\Lommeregner B3\\Lommeregner B3\\Program.cs",
+              "RelativeToolTip": "Lommeregner B3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-16T07:28:13.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
