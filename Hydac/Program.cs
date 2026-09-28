@@ -6,7 +6,7 @@
             string[] arraytest = {"Registrer gæsteankomst", "Udskriv gæst", "Gæstelog"};
 
             Menu menu = new Menu(arraytest, "HYDAC A/S");
-            menu.test();
+            menu.Navigate();
         }
     }
 }

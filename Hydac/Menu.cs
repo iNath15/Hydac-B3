@@ -15,13 +15,29 @@ namespace Hydac
             this.title = title;
         }
 
-        public void test()
+        public void Navigate()
         {
-            Console.WriteLine($"{title}\n");
+            int cursorIndex = 0;
             for (int i = 0; i < menulist.Length; i++)
             {
-            Console.WriteLine(menulist[i]);
+                if (i == cursorIndex)
+                {
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.WriteLine(menulist[i]);
+                }
+
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Gray;
+                    Console.BackgroundColor = ConsoleColor.Black;
+                    Console.WriteLine(menulist[i]);
+                }
+
             }
+
+            Console.ResetColor();
+
         }
     }
 }
