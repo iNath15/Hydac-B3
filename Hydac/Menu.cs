@@ -15,28 +15,67 @@ namespace Hydac
             this.title = title;
         }
 
-        public void Navigate()
+        public int Navigate()
         {
             int cursorIndex = 0;
-            for (int i = 0; i < menulist.Length; i++)
+            bool isSelected = false;
+
+            while(!isSelected)
             {
-                if (i == cursorIndex)
+                Console.Clear();
+                for (int i = 0; i < menulist.Length; i++)
                 {
-                    Console.ForegroundColor = ConsoleColor.Black;
-                    Console.BackgroundColor = ConsoleColor.White;
-                    Console.WriteLine(menulist[i]);
+                    if (i == cursorIndex)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.BackgroundColor = ConsoleColor.White;
+                        Console.WriteLine(menulist[i]);
+                    }
+
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Gray;
+                        Console.BackgroundColor = ConsoleColor.Black;
+                        Console.WriteLine(menulist[i]);
+                    }
+
+
                 }
 
-                else
+                Console.ResetColor();
+
+                ConsoleKeyInfo keyInfo = Console.ReadKey(true);
+                    switch (keyInfo.Key)
+                    {
+                        case ConsoleKey.DownArrow:
+                            cursorIndex++;
+                            break;
+
+                        case ConsoleKey.UpArrow:
+                            cursorIndex--;
+                            break;
+
+                        case ConsoleKey.Enter:
+                            isSelected = true;
+                            break;
+
+                        default:
+                            break;
+
+                    }
+                    
+                if(cursorIndex < 0)
                 {
-                    Console.ForegroundColor = ConsoleColor.Gray;
-                    Console.BackgroundColor = ConsoleColor.Black;
-                    Console.WriteLine(menulist[i]);
+                    cursorIndex = menulist.Length - 1;
                 }
+                else if (cursorIndex > menulist.Length - 1)
+                {
+                    cursorIndex = 0;
+                }
+
 
             }
-
-            Console.ResetColor();
+            return cursorIndex;
 
         }
     }
