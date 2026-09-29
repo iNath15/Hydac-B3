@@ -23,7 +23,7 @@ namespace Hydac
             while(!isSelected)
             {
                 Console.Clear();
-                Console.WriteLine(title);
+                Console.WriteLine($"{title}\n");
                 for (int i = 0; i < menulist.Length; i++)
                 {
                     if (i == cursorIndex)
