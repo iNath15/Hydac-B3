@@ -31,17 +31,13 @@ namespace Hydac
                         Console.BackgroundColor = ConsoleColor.White;
                         Console.WriteLine(menulist[i]);
                     }
-
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Gray;
                         Console.BackgroundColor = ConsoleColor.Black;
                         Console.WriteLine(menulist[i]);
                     }
-
-
                 }
-
                 Console.ResetColor();
 
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
@@ -61,7 +57,6 @@ namespace Hydac
 
                         default:
                             break;
-
                     }
                     
                 if(cursorIndex < 0)
@@ -72,11 +67,8 @@ namespace Hydac
                 {
                     cursorIndex = 0;
                 }
-
-
             }
             return cursorIndex;
-
         }
     }
 }
