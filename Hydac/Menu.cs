@@ -23,6 +23,7 @@ namespace Hydac
             while(!isSelected)
             {
                 Console.Clear();
+                Console.WriteLine(title);
                 for (int i = 0; i < menulist.Length; i++)
                 {
                     if (i == cursorIndex)
@@ -41,23 +42,23 @@ namespace Hydac
                 Console.ResetColor();
 
                 ConsoleKeyInfo keyInfo = Console.ReadKey(true);
-                    switch (keyInfo.Key)
-                    {
-                        case ConsoleKey.DownArrow:
-                            cursorIndex++;
-                            break;
+                switch (keyInfo.Key)
+                {
+                    case ConsoleKey.DownArrow:
+                        cursorIndex++;
+                        break;
 
-                        case ConsoleKey.UpArrow:
-                            cursorIndex--;
-                            break;
+                    case ConsoleKey.UpArrow:
+                        cursorIndex--;
+                        break;
 
-                        case ConsoleKey.Enter:
-                            isSelected = true;
-                            break;
+                    case ConsoleKey.Enter:
+                        isSelected = true;
+                        break;
 
-                        default:
-                            break;
-                    }
+                    default:
+                        break;
+                }
                     
                 if(cursorIndex < 0)
                 {
