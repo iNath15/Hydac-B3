@@ -16,8 +16,6 @@ namespace Navigation_Test {
             int cursorIndex = 0;
             bool isSelected = false;
 
-            Console.CursorVisible = false;
-
             while (!isSelected) {
                 Console.Clear();
 
