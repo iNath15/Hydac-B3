@@ -7,7 +7,7 @@ namespace Navigation_Test {
     public class Input {
         public static string GetString(string promptText) {
             Console.Clear();
-            Console.WriteLine(promptText);
+            Console.Write(promptText);
             return Console.ReadLine();
         }
 

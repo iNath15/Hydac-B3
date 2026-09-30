@@ -36,12 +36,15 @@ namespace Navigation_Test {
                 switch (selection) {
                     case 0:
                         name = Input.GetString("Skriv dit fulde nanv: ");
+                        regGuest[0] = $"Indtast navn: {name}";
                         break;
                     case 1:
                         businessName = Input.GetString("Skriv virksomheden du kommer fra: ");
+                        regGuest[1] = $"Indtast virksomhed: {businessName}";
                         break;
                     case 2:
                         responsibleName = Input.GetString("Skriv den ansvarlige for din ankomst: ");
+                        regGuest[2] = $"Indtast ansvarlig: {responsibleName}";
                         break;
                     case 3:
                         if (Input.IsEmpty(name) || Input.IsEmpty(businessName) || Input.IsEmpty(responsibleName)) {
