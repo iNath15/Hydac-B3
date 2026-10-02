@@ -6,11 +6,11 @@ using System.Text;
 
 namespace Navigation_Test {
     internal class DataHandler {
-        public static void Save(string contents) {
+        public static void Save(LogEntry log) {
             string filePath = "Log.txt";
 
             using (StreamWriter sw = new StreamWriter(filePath, true)) {
-                sw.WriteLine(contents);
+                sw.WriteLine(log.ToString());
             }
         }
     }

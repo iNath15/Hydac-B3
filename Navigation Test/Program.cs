@@ -33,7 +33,7 @@
                 int selection = menu.Navigate();
                 switch (selection) {
                     case 0:
-                        name = Input.GetString("Skriv dit fulde nanv: ");
+                        name = Input.GetString("Skriv dit fulde navn: ");
                         regGuest[0] = $"Indtast navn: {name}";
                         break;
                     case 1:
@@ -58,7 +58,7 @@
                             Console.ResetColor();
 
                             LogEntry logEntry = new LogEntry(name, businessName, responsibleName);
-                            DataHandler.Save(logEntry.ToString());
+                            DataHandler.Save(logEntry);
 
                             inSubMenu = false;
                         }
