@@ -6,6 +6,11 @@ namespace Hydac
 {
     internal class Input
     {
-        
+        public static string getString()
+        {
+            Console.Clear();
+            return Console.ReadLine();
+        }
+
     }
 }
