@@ -45,13 +45,17 @@ namespace Hydac
                 switch (selection)
                 {
                     case 0:
-                        name = Input.getString();
+                        name = Input.getString("Indtast navn: ");
+                        regGuest[0] = $"Indtast navn: {name}";
                         break;
+
                     case 1:
-                        businessName = Input.getString();
+                        businessName = Input.getString("Indtast virksomhed: ");
+                        regGuest[1] = $"Indtast virksomhed: {businessName}";
                         break;
                     case 2:
-                        responsibleName = Input.getString();
+                        responsibleName = Input.getString("Indtast ansvarlig: ");
+                        regGuest[2] = $"Indtast ansvarlig: {responsibleName}";
                         break;
                     case 3:
                         if (string.IsNullOrWhiteSpace(name) || string.IsNullOrWhiteSpace(businessName) || string.IsNullOrWhiteSpace(responsibleName))
@@ -67,6 +71,8 @@ namespace Hydac
                             Console.WriteLine($"\nGæst {name} fra {businessName} er nu registeret");
                             Console.ReadKey(true);
                             Console.ResetColor();
+                            LogEntry logEntry = new LogEntry(name, businessName, responsibleName);
+                            DataHandler.SaveData(logEntry);
                             inSubMenu = false;
                         }
 
