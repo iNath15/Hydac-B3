@@ -1,6 +1,4 @@
-﻿using Navigation_Test;
-
-namespace Navigation_Test {
+﻿namespace Navigation_Test {
     internal class Program {
         static void Main(string[] args) {
 
@@ -58,6 +56,9 @@ namespace Navigation_Test {
                             Console.WriteLine($"\nGæst {name} fra {businessName} er nu registreret");
                             Console.ReadKey(true);
                             Console.ResetColor();
+
+                            LogEntry logEntry = new LogEntry(name, businessName, responsibleName);
+                            DataHandler.Save(logEntry.ToString());
 
                             inSubMenu = false;
                         }
