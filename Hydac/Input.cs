@@ -10,8 +10,7 @@ namespace Hydac
         {
             Console.Clear();
             Console.Write(promptText);
-            return Console.ReadLine();
+            return Console.ReadLine().Replace(";", "");
         }
-
     }
 }

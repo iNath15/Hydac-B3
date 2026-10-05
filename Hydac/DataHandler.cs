@@ -13,7 +13,5 @@ namespace Hydac
                 sw.WriteLine(logInfo.ToString());
             }
         }
-        
-
     }
 }

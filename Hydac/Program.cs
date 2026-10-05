@@ -25,9 +25,6 @@ namespace Hydac
                         break;
                 }
             }
-
-                        
-
             string[] tempNames = {"Per", "Jens", "Kurt", "Mogens" };
         }
 
@@ -48,7 +45,6 @@ namespace Hydac
                         name = Input.getString("Indtast navn: ");
                         regGuest[0] = $"Indtast navn: {name}";
                         break;
-
                     case 1:
                         businessName = Input.getString("Indtast virksomhed: ");
                         regGuest[1] = $"Indtast virksomhed: {businessName}";
@@ -75,13 +71,8 @@ namespace Hydac
                             DataHandler.SaveData(logEntry);
                             inSubMenu = false;
                         }
-
                         break;
-                                               
-
-                }
-                    
-                    
+                }                                      
             }
         }
     }
