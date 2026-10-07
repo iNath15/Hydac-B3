@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Hydac
 {
-    internal class LogEntry
+    public class LogEntry
     {
         public string Name { get; }
         public string BusinessName { get; }
@@ -25,7 +25,7 @@ namespace Hydac
 
         public override string ToString()
         {
-            return $"{ArrivalTime:yyyy-MM-dd HH:mm:ss};{Name};{BusinessName};{ResponsibleName}";
+            return $"{ArrivalTime:yyyy-MM-dd HH\\:mm\\:ss};{Name};{BusinessName};{ResponsibleName}";
         }
     }
 }
