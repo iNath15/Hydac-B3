@@ -41,15 +41,15 @@ namespace Hydac
                 switch (selection)
                 {
                     case 0:
-                        name = Input.getString("Indtast navn: ");
+                        name = Input.GetString("Indtast navn: ");
                         regGuest[0] = $"Indtast navn: {name}";
                         break;
                     case 1:
-                        businessName = Input.getString("Indtast virksomhed: ");
+                        businessName = Input.GetString("Indtast virksomhed: ");
                         regGuest[1] = $"Indtast virksomhed: {businessName}";
                         break;
                     case 2:
-                        responsibleName = Input.getString("Indtast ansvarlig: ");
+                        responsibleName = Input.GetString("Indtast ansvarlig: ");
                         regGuest[2] = $"Indtast ansvarlig: {responsibleName}";
                         break;
                     case 3:

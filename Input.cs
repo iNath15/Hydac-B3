@@ -6,7 +6,7 @@ namespace Hydac
 {
     internal class Input
     {
-        public static string getString(string promptText)
+        public static string GetString(string promptText)
         {
             Console.Clear();
             Console.Write(promptText);
