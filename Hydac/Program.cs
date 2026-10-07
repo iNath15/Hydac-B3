@@ -25,7 +25,6 @@ namespace Hydac
                         break;
                 }
             }
-            string[] tempNames = {"Per", "Jens", "Kurt", "Mogens" };
         }
 
         static void HandleRegMenu()
